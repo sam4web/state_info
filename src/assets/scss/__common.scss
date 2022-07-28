@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  transition: background-color 200ms linear, color 200ms linear;
 
   &::selection {
     background-color: $pri_clr;
@@ -29,11 +30,7 @@ body {
   line-height: 28px;
   font-family: 'Source Sans Pro', sans-serif;
   color: $white;
-  background: linear-gradient(
-      to right,
-      rgb(255, 255, 255, 0.65),
-      rgb(255, 255, 255, 0.65)
-    ),
+  background: linear-gradient(to right, $bg_clr, $bg_clr),
     url(../img/background.jpg);
   background-position: center;
   background-repeat: no-repeat;

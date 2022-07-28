@@ -3,3 +3,27 @@
   @include grid;
   place-content: center;
 }
+
+.ThemeBtn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  .theme-change-btn {
+    background-color: $pri_light;
+    border: none;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border: 2px solid $pri_dark;
+    border-radius: 10px;
+    font-size: 20px;
+    color: $pri_dark;
+    transition: 150ms all linear;
+
+    &:hover {
+      color: $pri_light;
+      background-color: $pri_dark;
+      border-color: $pri_light;
+    }
+  }
+}

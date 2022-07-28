@@ -1,5 +1,17 @@
-$pri_clr: #219ebc;
-$pri_dark: #023047;
-$pri_light: #8ecae6;
-$white: #ffffff;
-$black: #000000;
+:root {
+  --main-clr: #219ebc;
+  --light-clr: #8ecae6;
+  --dark-clr: #023047;
+  --bg-clr: #ffffffa6;
+  --light: #fff;
+  --dark: #000;
+}
+
+$pri_clr: var(--main-clr);
+$pri_dark: var(--dark-clr);
+$pri_light: var(--light-clr);
+
+$white: var(--light);
+$black: var(--dark);
+
+$bg_clr: var(--bg-clr);
