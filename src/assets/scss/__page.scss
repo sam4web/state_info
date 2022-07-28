@@ -1,0 +1,5 @@
+.App {
+  padding: 35px 15px;
+  @include grid;
+  place-content: center;
+}

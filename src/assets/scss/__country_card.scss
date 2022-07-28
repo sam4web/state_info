@@ -1,0 +1,32 @@
+// styles for country card
+
+.CountryCard {
+  background-color: $pri_dark;
+  max-width: 550px;
+  width: 100%;
+  padding: 40px 30px;
+  border-radius: 20px;
+  text-align: center;
+
+  @include responsive_small {
+    padding: 20px 15px;
+  }
+
+  .countryImage {
+    width: 100%;
+    max-width: 400px;
+    max-height: 300px;
+    margin-bottom: 20px;
+  }
+
+  .description {
+    margin-top: 25px;
+    text-align: left;
+
+    span {
+      display: inline-block;
+      margin-left: 5px;
+      color: $pri_light;
+    }
+  }
+}

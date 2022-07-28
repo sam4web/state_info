@@ -1,0 +1,28 @@
+.Input {
+  @include grid;
+  place-content: center;
+  margin-bottom: 50px;
+
+  .searchBar {
+    padding: 5px 10px;
+    background: transparent;
+    width: 400px;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    justify-self: center;
+    display: inline-block;
+    position: relative;
+    border-bottom: 2px solid $pri_clr;
+    transition: 250ms border-color linear;
+
+    &:focus {
+      //   border-bottom: 2px solid $pri_clr;
+      border-color: $pri_dark;
+    }
+
+    @include responsive_small {
+      width: 250px;
+    }
+  }
+}

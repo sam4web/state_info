@@ -1,0 +1,17 @@
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+
+// styles import
+@import './_responsive_mixins';
+@import './_mixins';
+@import './_colors';
+
+// general styles
+@import './_common';
+
+// sections
+@import './_search_box';
+@import './_country_card';
+
+// page
+@import './_page';

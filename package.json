@@ -1,5 +1,5 @@
 {
-  "name": "where_am_i",
+  "name": "state_info",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
