@@ -2,8 +2,7 @@
 
 .CountryCard {
   background-color: $pri_dark;
-  max-width: 550px;
-  width: 100%;
+  width: 650px;
   padding: 40px 30px;
   border-radius: 20px;
   text-align: center;
@@ -11,7 +10,9 @@
     rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
     rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 
-  @include responsive_small {
+  @include responsive_medium {
+    max-width: 600px;
+    width: 100%;
     padding: 20px 15px;
   }
 

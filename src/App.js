@@ -1,8 +1,8 @@
+import $ from 'jquery';
 import Input from './components/Input';
 import CountryCard from './components/CountryCard';
 import ThemeBtn from './components/ThemeBtn';
 import { useState } from 'react';
-import $ from 'jquery';
 
 const App = () => {
   const [stateInfo, setStateInfo] = useState({});
@@ -39,9 +39,10 @@ const App = () => {
       population: data.population,
       timezone: data.timezones,
     };
-    // Debug
-    console.log(info);
     setStateInfo(info);
+
+    // change body height to fit content
+    $('body').css('height', 'auto');
   };
 
   const changeTheme = () => {
