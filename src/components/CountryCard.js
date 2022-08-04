@@ -2,16 +2,6 @@ import PropTypes from 'prop-types';
 
 const CountryCard = ({ info }) => {
   return (
-    // name: data.name.common,
-    // officialName: data.name.official,
-    // capitalCity: data.capital,
-    // continent: data.continents[0],
-    // currencies: data.currencies,
-    // flag: data.flags.svg,
-    // languages: data.languages,
-    // population: data.population,
-    // timezone: data.timezones,
-
     <div className='CountryCard'>
       <img className='countryImage' src={info.flag} alt='flag' />
       <h1 className='countryName'>{info.name}</h1>
